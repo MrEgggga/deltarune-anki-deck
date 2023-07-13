@@ -1,5 +1,5 @@
-idx     field   sort in browser
+idx     field     sort in browser
 1       id      
 2       jp
 3       en
-4       sort_id yes
+4       sort_id   yes

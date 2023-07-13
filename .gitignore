@@ -1,2 +1,6 @@
 # i hate macos so much
 **/.DS_Store
+
+# build files
+deck/data.txt
+src/lines.json
