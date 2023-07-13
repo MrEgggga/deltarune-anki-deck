@@ -2,6 +2,17 @@
 
 this is the source code for an anki deck i made, including the code i used to generate all the notes from the dialogue files. you can download the deck [link go here!!].
 
+## limitations
+
+- the lines of dialogue aren't exactly in the order they appear in-game. it might be a good idea just to randomize the card order anyways
+- this is only chapter 1 dialogue--see the "things to do" section at the end of the page for an explanation of why this is the case
+- there's no data on which character each line is from, although this is not stored in the data files so i can't really have this happen
+
+## credits
+
+font (en): [Determination Mono](https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font)
+font (jp): JF Dot Shinonome Gothic 14
+
 ## technical details
 
 ### building from scratch
