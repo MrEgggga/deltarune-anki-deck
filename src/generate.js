@@ -7,4 +7,4 @@ const merged = Object.entries(jpCh1)
   .filter(([a, _]) => a != 'date')
   .map(([key, jp]) => ({ key, jp, en: enCh1[key] }));
 
-fs.writeFileSync(`${__dirname}/../static/lines.json`, JSON.stringify(merged));
+fs.writeFileSync(`${__dirname}/lines.json`, JSON.stringify(merged));

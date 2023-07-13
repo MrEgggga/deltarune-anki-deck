@@ -2,6 +2,9 @@
 import json
 import re
 
+import pathlib
+path = pathlib.Path(__file__).parent.resolve()
+
 def repl(s: str) -> str:
     global replacements
     for r in replacements:
@@ -10,7 +13,7 @@ def repl(s: str) -> str:
 
 # register special characters
 replacements = []
-with open('special.txt') as escapes:
+with open(path / 'special.txt') as escapes:
     for line in escapes.readlines():
         things = line.strip('\n').split('|')
         if len(things) == 1:
@@ -23,7 +26,7 @@ seen = []
 counter = 0
 
 # convert, filter, and output cards
-for line in json.load(open('lines.json')):
+for line in json.load(open(path / 'lines.json')):
     key = line['key']
     en, jp = line['en'], line['jp']
 

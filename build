@@ -1,0 +1,3 @@
+#!/bin/sh
+node src/generate.js
+src/ankify.py > deck/data.txt
