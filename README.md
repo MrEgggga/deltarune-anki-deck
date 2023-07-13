@@ -1,6 +1,6 @@
 # DELTARUNE Chapter 1 Japanese -> English Anki deck
 
-this is the source code for an anki deck i made, including the code i used to generate all the notes from the dialogue files. you can download the deck [link go here!!].
+this is the source code for an anki deck i made, including the code i used to generate all the notes from the dialogue files. you can download the deck [here](https://ankiweb.net/shared/info/669075646).
 
 ## limitations
 
