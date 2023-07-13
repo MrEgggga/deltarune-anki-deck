@@ -1,0 +1,53 @@
+.card {
+  font-family: arial;
+  font-size: min(20px, 5vw);
+  text-align: left;
+  color: white;
+  background-color: black !important;
+}
+
+span {
+  color: #ffffff;
+  white-space: pre-wrap;
+}
+
+.color-W {
+  color: #ffffff;
+}
+
+.color-Y {
+  color: #ffff00;
+}
+
+.color-B {
+  color: #0000ff;
+}
+
+.color-R {
+  color: #ff0000;
+}
+
+.jp {
+  font-family: dr-jp;
+}
+
+.en {
+  font-family: dr-en;
+}
+
+@font-face {
+  font-family: dr-jp;
+  src: url('dr-jp.ttf');
+}
+
+@font-face {
+  font-family: dr-en;
+  src: url('dr-en.ttf');
+}
+
+hr {
+display: block;
+height: 1px;
+border: 0;
+background-color: white;
+}
