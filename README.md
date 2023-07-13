@@ -10,8 +10,8 @@ this is the source code for an anki deck i made, including the code i used to ge
 
 ## credits
 
-font (en): [Determination Mono](https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font)
-font (jp): JF Dot Shinonome Gothic 14
+- font (en): [Determination Mono](https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font)
+- font (jp): JF Dot Shinonome Gothic 14
 
 ## technical details
 
